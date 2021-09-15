@@ -1,0 +1,54 @@
+body{
+    background-color: #E3FDFD;
+    text-align: center;
+    margin: 2em;
+}
+
+h1{
+    margin: 1.5em;
+}
+/*UL içindeki  Lİ  elementi içinde  gerçekleşecek  Özellikler*/
+ul>li{
+    list-style-position: inside;
+    display: inline;
+    font-size: 1.9em;
+    margin-left: 3em;
+    
+}
+
+/*UL içindeki  Lİ elementi  içindeki  Anchor link simgesi kaldırılır. */
+ul>li>a{
+    text-decoration: overline;
+}
+
+
+article{
+    padding: 5em;
+}
+
+article>img{
+    border-radius: 10px;
+    width: 600px;
+    height: 600px;
+}
+
+.buyukYazilar{
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ortaYazilar{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+article>p{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    overflow: inherit;
+}
+
+footer>a{
+    text-decoration: overline;
+    font-size: 1.5em;
+}
